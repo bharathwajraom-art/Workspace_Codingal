@@ -1,7 +1,7 @@
-a=input("enter a word ")
-for i in a:
-    if (i=="A" or i=="a"):
-        print("a is found")
-        break
-    else:
-        print("a is not found")
+var=10
+while var>0:
+    var=var-1
+    if var==5:
+        continue
+    print(var)
+print("goodbye")
