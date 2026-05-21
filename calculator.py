@@ -1,3 +1,4 @@
+import sys
 
 def add(a,b):
     return a+b
@@ -19,9 +20,14 @@ print("1.add")
 print("2.subtract")
 print("3.multiply")
 print("4.divide")
-n1=int(input("Enter a Choice (1/2/3/4)"))
+n1=0
+try:
+    n1=int(input("Enter a Choice (1/2/3/4)"))
+except ValueError:
+    print("Enter a valid number")
+    sys.exit(1)
+
 if(n1<1 or n1>4):
-    print (n1)
     print("invalid choice")
 else:
     try:
