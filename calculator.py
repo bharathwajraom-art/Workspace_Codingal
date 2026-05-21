@@ -20,7 +20,7 @@ print("2.subtract")
 print("3.multiply")
 print("4.divide")
 n1=int(input("Enter a Choice (1/2/3/4)"))
-if(n1<1 and n1>4):
+if(n1<1 or n1>4):
     print (n1)
     print("invalid choice")
 else:
