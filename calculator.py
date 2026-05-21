@@ -27,13 +27,13 @@ else:
     try:
         num1=float(input("enter a number "))
         num2=float(input("enter a number "))
-        if n==1:
+        if n1==1:
             print("result",add(num1,num2))
-        elif n==2:
+        elif n1==2:
             print("result",subtract(num1,num2))
-        elif n==3:
+        elif n1==3:
             print("result",multiply(num1,num2))
-        elif n==4:
+        elif n1==4:
             print("result",divide(num1,num2))
         else:
             print("invalid choice")
