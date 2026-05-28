@@ -1,0 +1,8 @@
+empty_list=[]
+print()
+num=[1,4,7,9]
+print(num)
+triplets=[123]*3
+alist=[100,800,900]
+alist=alist[::-1]
+print(alist)
