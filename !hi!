@@ -1,0 +1,9 @@
+set1={"gren","blue"}
+set2={"yellow","blue"}
+print("orginal set elements")
+print(set1)
+print(set2)
+set3=set1.union(set2)
+print("union of set1 and set2 is",set3)
+set3=set1.intersection(set2)
+print("intersection of set1 and set2 is",set3)
