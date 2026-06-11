@@ -1,0 +1,12 @@
+s1=[1,2,3,4,5]
+s2=['b','c','d']
+result=list(zip(s1,s2))
+print("zipped list are",result)
+list1=[10,20,30]
+list2=[40,50,60]
+for x,y in zip(list1,list2[::-1]):
+    print(x,y)
+stocks=["relince","tata","adani"]
+prices=[100,200,300]
+stocks_dict=dict(zip(stocks,prices))
+print("stocks dictionary is",stocks_dict)
