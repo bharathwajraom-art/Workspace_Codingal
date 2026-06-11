@@ -1,0 +1,9 @@
+n=[1,2,3,4]
+m=[3,5,7]
+result=map(lambda x,y:x+y, n,m)
+print("addition of the two list is",list(result))
+num=[1,2,3,4,5]
+def sq(n):
+    return n*n
+square=list(map(sq,num))
+print("square of the number is",square)
