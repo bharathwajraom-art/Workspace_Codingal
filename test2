@@ -1,0 +1,4 @@
+class stud:
+    grade=5
+    print("I am in grade",grade)
+s1=stud()
